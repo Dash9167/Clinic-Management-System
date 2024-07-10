@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(232, 225, 225);
+    text-decoration: none;
+
+
+}
+.register{
+    margin:2% 25% ;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    background-color: rgb(220, 211, 211);
+    padding: 20px 30px;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+center{
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+form{
+    display: block;
+}
+table{
+
+}
+table tr td{
+    width: 50%;
+    padding: 1px;
+}
+.register form input[type=text]{
+    font-size: 28px;
+    line-height: 2.5rem;
+    border: none;
+    background-color:rgb(245, 248, 250);
+    outline: none;
+    padding: 0px 10px;
+
+    border-bottom: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px; 
+}
+.register form input[type=number]{
+    font-size: 28px;
+    line-height: 2.5rem;
+    border: none;
+    background-color:rgb(245, 248, 250);
+    outline: none;
+    padding: 0px 10px;
+
+    border-bottom: 2px solid black;
+    width: 200%;
+    border-radius: 5px;
+    margin-bottom: 8px; 
+}
+.register form input[type=email]{
+    font-size: 28px;
+    line-height: 2.5rem;
+    border: none;
+    background-color:rgb(245, 248, 250);
+    outline: none;
+    padding: 0px 9px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.register form input[type=number]{
+    font-size: 23px;
+    line-height: 2.5rem;
+    border: none;
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    padding-left:  5px;
+
+}
+.register form input[type=submit]{
+    background-color: green;
+   
+    width: 101%;
+    align-items: center;
+    border-radius: 5px;
+    line-height: 40px;
+    transition: .5s;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.register form input[type=submit]:hover{
+    background-color: darkorange;
+    transition: .2s;
+}
+.register form input[type=reset]{
+    background-color: green;
+   
+    width: 101%;
+    border-radius: 5px;
+    line-height: 40px;
+    transition: .5s;
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.register form input[type=reset]:hover{
+    background-color: darkorange;
+    transition: .2s;
+}
+.register form input[type=radio]{
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    font-size: 25px;
+
+}
+
+@media(max-width:950px)
+{
+    .register form input[type=text]
+    {
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+    .register form{
+        font-size: 20px;
+    }
+    .register{
+        width: 100%;
+        margin: 2% 0%;
+    }
+}

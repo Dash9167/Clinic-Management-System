@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    font-family: sans-serif;
+    background-image: url(doctor6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home{
+ height: 100vh;
+    width: 100%;
+
+}
+.content{
+    text-align: center;
+    margin: 25%;
+   padding:15px 10px;
+    background: rgb(240, 237, 237);
+}
+

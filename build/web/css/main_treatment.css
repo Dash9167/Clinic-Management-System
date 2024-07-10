@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("doctor5");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.container{
+    position: relative;
+   
+    width: 100%;
+    opacity: .8;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.container header{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(53, 46, 46);
+    position: relative;
+    text-align: center;
+
+}
+
+.container form{
+    position: relative;
+    margin-top: 16px;
+   
+    min-height: 250px;
+    background-color: #FFf;
+}
+.container form .details{
+    margin-top: 10px;
+   
+}
+.container form .title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #333;
+
+}
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6px;
+
+}
+form .fields .input-field{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 1 - 15px);
+
+}
+.input-field label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+.input-field input[type=text]{
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    border-radius: 6px;
+    border: 2px solid wheat;
+    padding: 0 15px;
+    margin: 8px 0;
+}
+
+
+.back-btn{
+    color: black;
+}
+.next-btn,.back-btn{
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    max-width: 150px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: #FFf;
+    outline: none;
+    margin: 25px 0;
+    transition: all .3s linear;
+}
+.next-btn{
+    float: right;
+}
+.next-btn:hover,.back-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.next-btn i,.back-btn i{
+    margin: 0 5px;
+}
+
+@media(max-width:750px)
+{
+    .container form{
+        overflow-y: scroll;
+    }
+    .container form::-webkit-scrollbar{
+        display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 1 - 15px);
+    }
+}
+
+@media(max-width:550px)
+{
+
+    form .fields .input-field{
+        width: 100% ;
+    }
+}

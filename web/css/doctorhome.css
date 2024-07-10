@@ -1,0 +1,73 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    font-family: sans-serif;
+     background-image: url(doctor2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     content: " ";
+     background-color: rgba(0,0,0,0.44);
+
+
+}
+
+h2{
+    color :white;
+    font-size: 50px;
+    overflow: hidden;
+    margin-right: -100px;
+}
+h2 span{
+    color:green;
+}
+h2::after
+{
+    margin-right: 0px;
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+   
+}
+.service-boxes {
+    margin: 13rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box {
+    width: calc(20.33% - 20px); /* Adjust as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f5;
+    height: 15rem;
+        margin: 0 auto;
+
+}
+.service-box:hover{
+    background: #4CAF50;
+    transition: .5s;
+    transform: scale(1.1);
+}
+.service-box a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box a i {
+    font-size: 150px;
+    margin-bottom: 10px;
+}
+
+.service-box a span {
+    font-size: 16px;
+}
+

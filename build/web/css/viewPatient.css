@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+
+}
+body{
+    background: #f2f2f2;
+}
+.responsive-table{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    background-color: red;
+
+    border-radius: 15px; 
+}
+.responsive-table h1{
+    text-align: center;
+    padding: 15px;
+    color: #404040;
+}
+table{
+    width: 100%;
+    background-color: aliceblue;
+
+    border: none;
+}
+th,td{
+    padding:8px 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #404040;
+}
+th{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(174,224,224,0);
+    border-radius: 10px; 
+
+}
+tr.tr1{
+    background-color: rgb(74, 145, 145);
+    border-radius: 10px; 
+
+}
+.tr{
+    border-radius: 20px; 
+}
+
+tr.tr2{
+    background-color: rgb(97, 200, 166);
+
+
+
+}
+
+
+.tr1 input[type=text]
+{
+    background-color: rgb(74, 145, 145);
+    border: none;
+    text-align: right;
+}
+.tr2 input[type=text]
+{
+    background-color: rgb(97, 200, 166);
+    border: none;
+    text-align: right;
+}
+.action button{
+    background-color: blue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 6px;
+    transition: .5s;
+
+}
+.action button:hover{
+    background-color: darkorange;cursor: pointer;
+}
+input[type=submit]{
+    background-color: blue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 6px;
+    transition: .5s;
+}
+input[type=submit]:hover{
+    background-color: darkorange;cursor: pointer;
+}
+@media only screen and (max-width:1100px){
+    th{
+        display: none;
+    }
+    tr{
+        display: block;
+        padding: 0 10px 10px 10px;
+        margin-bottom: 10px;
+    }
+    td{
+        display: flex;
+        text-align: right;
+        justify-content: space-between;
+        border-bottom: 1px solid wheat;
+
+    }
+    td::before{
+        content: attr(data-label);
+        font-weight: bold;
+    }
+}
+/**********go back ***/
+.back-btn {
+
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.back-btn button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add smooth transition effect */
+}
+
+.back-btn button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/**************search**********/
+

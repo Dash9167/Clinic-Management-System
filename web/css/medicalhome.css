@@ -1,0 +1,15 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(doctor10.jpeg);
+  
+    min-height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
