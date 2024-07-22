@@ -1,2 +1,13 @@
-#test
-https://github.com/Dash9167/Clinic-Management-System/issues/2#issue-2423614442
+![Screenshot 2024-03-29 004139](https://github.com/user-attachments/assets/2b4213cc-f634-4696-acbc-07fc4e969a38)
+![Screenshot 2024-03-29 004608](https://github.com/user-attachments/assets/eda94134-3c1b-47b4-a216-df0ad51e44d0)
+![Screenshot 2024-03-29 004747](https://github.com/user-attachments/assets/85e89983-4e92-4ba8-b2b7-243ba57d9cad)
+![Screenshot 2024-03-29 005128](https://github.com/user-attachments/assets/c2e7c2d0-0903-4ffc-99ad-739bb254598f)
+![Screenshot 2024-03-29 005223](https://github.com/user-attachments/assets/d1ffa85e-4681-481a-9676-3a1e38c930c3)
+![Screenshot 2024-03-29 005314](https://github.com/user-attachments/assets/ef912f65-df9b-4eb0-a972-d2d7d09ffb82)
+![Screenshot 2024-03-29 005503](https://github.com/user-attachments/assets/f0b231fe-9b4b-4033-9231-e7c048e44b78)
+![Screenshot 2024-03-29 005621](https://github.com/user-attachments/assets/758f4650-32e6-4e5d-bd7e-afdafe6e0521)
+![Screenshot 2024-03-29 005642](https://github.com/user-attachments/assets/8fc83f4e-3829-4eb1-b3ba-200ff0ae866e)
+![Screenshot 2024-04-10 030501](https://github.com/user-attachments/assets/7bd0ed8a-b175-48f3-bae3-f1c78a18ddb0)
+![Screenshot 2024-04-29 231510](https://github.com/user-attachments/assets/ed289207-ca23-4e19-8c0f-3df5a58230b2)
+![Screenshot 2024-04-29 231402](https://github.com/user-attachments/assets/849df630-aeb1-4ef8-9b44-e8f2c5c9b9bb)
+
